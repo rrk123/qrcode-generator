@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;    
+}
+.container{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+h2{
+    text-align: center;
+
+}
+input{
+    width: 90%;
+    padding:10px;
+    height: 30px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+button{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.qrImagebox{
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.qrImagebox img{
+    margin: 10px auto;
+    padding: 10px;
+}
